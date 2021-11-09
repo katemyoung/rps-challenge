@@ -5,7 +5,7 @@ I have implemented the first user story which allows a player to register their 
 
 ## To complete the project I would:
 - 
-- [ ] Add a method `#play` to the `Game` class in model `game.rb`, containig the logic for which moves beat which other moves.
+- [ ] Add a method `#play` to the `Game` class in model `game.rb`, containing the logic for which moves beat which other moves.
 - [ ] Develop the app.rb to use this logic in the `/winner` route.
 - [ ] Refactor so that an instance of Player could be used by an instance of Game (not yet working)
 - [ ] Store the `move` parameter that is posted from the `/play` route in an instance variable (not yet working).
@@ -119,3 +119,7 @@ it 'has clickable button' do
 end
 ```
 - [ ] What's the good spec guide say about class names, where instance methods are #method_name
+
+
+## Changes I made after the code review:
+- Got the radio buttons working, and saving their value to a param. I was missing a name field in the form. Used tips picked up after discussion with my peer group on Monday morning on how to fix this, and the tutor demo in the monday morning intro session.

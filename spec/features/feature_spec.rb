@@ -22,7 +22,7 @@ feature 'Winning or losing' do
   let(:computer_move) { 'Rock' }
   scenario 'player wins with paper' do
     register_name
-    click_button 'Rock'
+    click_button 'Paper'
     expect(page).to have_content('Lagertha wins!')
   end
 

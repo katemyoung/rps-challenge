@@ -18,6 +18,7 @@ class RockPaperScissors < Sinatra::Base
   end
 
   post '/winner' do
+    p params 
     erb :winner
   end
   

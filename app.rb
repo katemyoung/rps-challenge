@@ -13,12 +13,15 @@ class RockPaperScissors < Sinatra::Base
   end
 
   post '/play' do
+    p params
     $player1 = Player.new(params[:name])
     erb :play
   end
 
   post '/winner' do
-    p params 
+    p params
+    @player1_move = params[:Rock]
+    p "Player 1's move is: " + @player1_move
     erb :winner
   end
   

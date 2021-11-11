@@ -122,4 +122,7 @@ end
 
 
 ## Changes I made after the code review:
+- After chatting at length with our peer group and hearing from a colleague who has been a Product Manager, I decided to use a trello board to manage the changes I wanted to make to my project following the code review.
 - Got the radio buttons working, and saving their value to a param. I was missing a name field in the form. Used tips picked up after discussion with my peer group on Monday morning on how to fix this, and the tutor demo in the monday morning intro session.
+- Split the feature_spec.rb file into separate files for each feature.
+- Created a web_helpers_spec.rb file to hold the helper methods for the feature tests.ß

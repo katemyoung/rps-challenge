@@ -14,7 +14,7 @@ class RockPaperScissors < Sinatra::Base
 
   post '/play' do
     p params
-    $player1 = Player.new(params[:name])
+    player1 = Player.new(params[:name])
     erb :play
   end
 
